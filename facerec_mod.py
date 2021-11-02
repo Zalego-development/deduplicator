@@ -23,7 +23,6 @@ for image in range(len(images)):
     encodeAng = fr.face_encodings(imgAng)[0]
     encoded.append(encodeAng)
     finish_load_and_enc = datetime.now()
-
     print(f"Finished loading image {num} in {finish_load_and_enc - load_and_enc}")
     num+=1
 
